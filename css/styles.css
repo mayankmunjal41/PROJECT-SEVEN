@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato"
+}
+
+.video-wrapper, p {
+  width:80%;
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.visible {
+  color: orange;
+}
+
+.highlight {
+  color: orange;
+}
+
+@media screen and (min-width:728px) {
+  .video-wrapper{
+    margin-top: 30px;
+  }
+
+  .visible {
+    color: inherit;
+  }
+
+  .invisible {
+    color: orange;
+  }
+
+
+}
