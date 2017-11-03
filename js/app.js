@@ -7,7 +7,7 @@ video.addEventListener('timeupdate', (e) => {
 
 		let startTime = captions[i].getAttribute('data-start');
 		let endTime = captions[i].getAttribute('data-end');
-		let currentTime = video.currentTime();
+		let currentTime = video.currentTime;
 
    if (startTime <= currentTime && endTime >= currentTime) {
       captions[i].className = 'highlight';
