@@ -16,3 +16,8 @@ video.addEventListener('timeupdate', (e) => {
 		}
   }
 });
+
+$('video').mediaelementplayer({
+  features: ['playpause', 'progress', 'volume', 'duration', 'fullscreen'],
+
+});
